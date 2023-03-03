@@ -1,0 +1,16 @@
+import java.util.Arrays;
+
+public class Annagrams {
+
+	public static void main(String[] args) {
+String s1="java";
+String s2="Avaj";
+s1 = s1.toLowerCase();
+s2 = s2.toLowerCase();
+boolean b=annagram(s1,s2);
+if(b==true)
+	System.out.println("Both String are ananagrams");
+else
+	System.out.println("Both String are  not ananagrams");
+	}
+}
